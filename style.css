@@ -1,0 +1,57 @@
+body {
+    margin: 10px auto;
+    border: 5px solid black;
+    padding: 5px;
+    max-width: 1100px;
+    font-size: 20px;
+    /* background-color: orange; */
+  }
+header {
+    padding-left: 40px;
+    padding-right: 40px;
+    /* border: 5px solid black; */
+}
+figure {
+    width: 268px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    }
+figcaption {
+    background-color: rgb(141, 93, 4);
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    }
+.container-header {
+    display: flex;
+    /* width: 1020px; */
+    justify-content: space-around;
+    /* border: 5px solid black; */
+}
+
+h1 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+h2 {
+    text-align: center;
+  }
+h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 40px;
+  }
+p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+footer {
+        display: flex;
+        justify-content: space-around;
+    }
+.year-of-app {
+        font-weight: bold;
+    }
