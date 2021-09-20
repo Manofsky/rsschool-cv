@@ -5,59 +5,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yury Romanovskiy's CV</title>
+    <title>Romanovskiy's CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="libs/vs.min.css">
+    <script src="libs/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
 <body>
     <header>
         <div class="container-header">
-            <div>E-mail: <a href="mailto:clegrof@gmail.com">clegrof@gmail.com</a></div>
-            <div>Telegram: <a href="http://t.me/clegrof">@clegrof</a></div>
+            <div>E-mail: <a class="none" href="mailto:clegrof@gmail.com">clegrof@gmail.com</a></div>
+            <div class="Telegram">Telegram: <a class="none" href="http://t.me/clegrof">@clegrof</a></div>
         </div>
     </header>
+
     <main>
         <section>
             <h1>Yury Romanovskiy</h1>
-            <figure>
-                <img src="img/yury.jpg" width="268" height="260" alt="Yury Romanovskiy's photo">
+            <figure class="figure2">
+                <img src="img/yury.jpg" width="268" height="260" alt="Yury Romanovskiy's photo" class="cv-photo">
                 <figcaption>Junior Front-end Developer</figcaption>
             </figure>
         </section>
-
-        <section class="about-me">
-            <h2>About Me</h2>
+        <aside class="aside">
+            <nav>
+                <div class="nav">
+                    <a class="nav2 active" href="#About-Me">About</a>
+                    <a class="nav2" href="#Projects">Projects</a>
+                    <a class="nav2" href="#Skills">Skills</a>
+                    <a class="nav2" href="#Education">Education</a>
+                </div>
+            </nav>
+        </aside>
+        <section>
+            <h2 id="About-Me">About</h2>
 
             <p>
                 Since 2016, I have been developing state-regulated construction technological documentation in Belarus,
                 documentation on the organization of construction, as well as sections of demolition projects.
             </p>
             <p>Until 2016 - line manager of construction and installation works (work supervisor).</p>
-            <p>More information:
-                <a href="https://www.linkedin.com/in/yurivromanowski/">linkedin.com/in/yurivromanowski</a>
+            <p>You can see more information about my career in my <a
+                    href="https://www.linkedin.com/in/yurivromanowski/">LinkedIn</a> profile.
             </p>
 
             <p>
                 In 2021, I made the decision to become a front-end developer.
-                I am currently studying in the preparatory stage of RS School.
+                I am currently studying in <a href="https://rs.school/js/">The Rolling Scopes School</a>.
             </p>
         </section>
+        <section class="portfolio">
+            <h2 id="Projects" class="subheading">Projects</h2>
+            <div class="Projects">
+                <div class="ProjectsIn">
+                    <h3 style="text-align: center;">JS Clock</h3>
+                    <a target="_blank" href="https://rolling-scopes-school.github.io/manofsky-JSFEPRESCHOOL/js-clock/">
+                        <img src="img/clock.png" width="173" alt="js clock">
+                    </a>
+                    <p style="padding: 0px; margin: 0px;">Mechanical clock with moving hands in JavaScript.</p>
+                </div>
+                <div class="ProjectsIn">
+                    <h3 style="text-align: center;">HTMLAcademy</h3>
+                    <a target="_blank" href="https://htmlacademy.ru/">
+                        <img class="HTMLAcad" src="img/HTMLAcad.png" height="211" alt="HTMLAcademy">
+                    </a>
+                    <p style="padding: 0px; margin: 0px;">Simulator projects on HTMLAcademy.</p>
+                </div>
+            </div>
+        </section>
         <section>
-            <h2>Skills</h2>
+            <h2 id="Skills">Skills</h2>
             <ul>
                 <li>Git</li>
-                <li>HTML, CSS</li>
+                <li>HTML, CSS, JavaScript</li>
             </ul>
+            <h3>Code example:</h3>
+            <div class="padding">
+                <pre class="section__code"><code>function greaterThanLessThan (a,b,c) {
+let result = a &lt; b &lt; c;
+return result;
+}</code></pre>
+            </div>
         </section>
 
         <section>
-            <h2>Higher education</h2>
+            <h2 id="Education">Education</h2>
             <ul>
-                <li>In 2010 I graduated from the Faculty of Civil Engineering of the Belarusian National Technical
-                    University.
+                <li>
+                    Belarusian National Technical University. Civil Engineering Faculty
+                    (2005-2010)
                 </li>
-                <li>In 2017 I graduated from Moscow State University of Civil Engineering (National Research
-                    University).
+                <li>
+                    Moscow State University of Civil Engineering (National Research University)
+                    (2012-2017)
                 </li>
             </ul>
         </section>
@@ -70,8 +111,8 @@
         <section>
             <h2>Contacts</h2>
             <ul>
-                <li>E-mail: <a href="mailto:clegrof@gmail.com">clegrof@gmail.com</a></li>
-                <li>Telegram: <a href="http://t.me/clegrof">@clegrof</a></li>
+                <li>E-mail: <a class="none" href="mailto:clegrof@gmail.com">clegrof@gmail.com</a></li>
+                <li>Telegram: <a class="none" href="http://t.me/clegrof">@clegrof</a></li>
             </ul>
         </section>
 
@@ -83,7 +124,7 @@
             </a></div>
         <div class="year-of-app">2021</div>
         <div><a href="https://rs.school/js/">
-                <img src="https://rs.school/images/rs_school_js.svg" height="25" alt="link to the course">
+                <img src="img/rs_school_js.svg" height="25" alt="link to the course">
             </a></div>
     </footer>
     <script>
@@ -104,7 +145,7 @@ article, aside, figure, figcaption, footer, header, main, nav, section,
 при этом всё содержание страницы сохраняется + 10
         * есть меню.Ссылки в пунктах меню ведут на основные разделы CV.
 При кликах по пунктам меню реализована плавная прокрутка по якорям.
-При уменьшении ширины экрана меню становится адаптивным.Внешний вид адаптивного меню можно скопировать с макета музея + 10
+При уменьшении ширины экрана меню становится адаптивным.Внешний вид адаптивного меню можно скопировать с макета музея + 8
         * на странице СV присутствует изображение - фото или аватарка автора CV, пропорции изображения не искажены,
 у изображения есть атрибут alt(может быть пустым) + 10
         * контакты для связи и перечень навыков оформлены в виде списка ul > li + 10
@@ -116,13 +157,7 @@ article, aside, figure, figcaption, footer, header, main, nav, section,
 есть ссылка на задание, скриншот страницы СV,
 ссылка на деплой страницы CV на GitHub Pages,
 выполнена самооценка(самооценку расписываем по пунктам критериев оценки, указывая балл за каждый пункт) + 10
-        * Так как сабмитится ссылка на деплой CV, вам необходимо будет самостоятельно найти Pull Request для проверки.
-Для этого по ссылке в футере перейдите на гитхаб автора CV, найдите там репозиторий rsschool - cv,
-в нём открытый PR из ветки cv - html - css в ветку main с названием CV и проверьте его описание.
-        * есть видеорезюме автора CV на английском языке.Продолжительность видео 3 - 5 минут(±15 секунд).
-В описание видео на YouTube добавлена его транскрипция на английском языке + 10
-        * качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию
-(это дополнительные 10 баллов, поэтому некоторый субъективизм в оценке может присутствовать) + 10
+        * качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию + 8
         `;
         console.log(selfAssessment);
     </script>
