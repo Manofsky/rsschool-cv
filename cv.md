@@ -1,5 +1,4 @@
 # CV of Yuriy Romanowskiy
-*clegrof@gmail.com*
 ![photo](/img/yury.jpg "photo of me")
 ## About Me
 Since 2016, I have been developing state-regulated construction technological documentation in Belarus, documentation on the organization of construction, as well as sections of demolition projects.
@@ -24,3 +23,6 @@ greaterThanLessThan (3,1,-1) => true // false == 0, true == 1
 ```
 
 **I have resumed learning English and try to use it at A2 level.**
+
+## My e-mail
+*clegrof@gmail.com*
