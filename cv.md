@@ -1,5 +1,6 @@
 # CV of Yuriy Romanowskiy
 *clegrof@gmail.com*
+![photo](/img/yury.jpg "photo of me")
 ## About Me
 Since 2016, I have been developing state-regulated construction technological documentation in Belarus, documentation on the organization of construction, as well as sections of demolition projects.
 
@@ -9,7 +10,7 @@ https://www.linkedin.com/in/yurivromanowski/
 
 In 2021, I made the decision to become a front-end developer.
 
-I am currently studying in the stage1 of RSschool.
+I am currently taking the course in The Rolling Scopes School.
 ## Higher education
 * In 2010 I graduated from the Faculty of Civil Engineering of the Belarusian National Technical University.
 * In 2017 I graduated from Moscow State University of Civil Engineering (National Research University).
@@ -19,6 +20,7 @@ function greaterThanLessThan (a,b,c) {
   let result = a < b < c;
     return result;
 }
+greaterThanLessThan (3,1,-1) => true // false == 0, true == 1
 ```
 
-**I use English at A2 level.**
+**I have resumed learning English and try to use it at A2 level.**
