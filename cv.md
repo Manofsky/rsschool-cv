@@ -19,7 +19,7 @@ function greaterThanLessThan (a,b,c) {
   let result = a < b < c;
     return result;
 }
-greaterThanLessThan (5,3,2) => true // false == 0, true == 1
+greaterThanLessThan (5,3,2) // => true, because false == 0, true == 1
 ```
 
 **I have resumed learning English and try to use it at A2 level.**
