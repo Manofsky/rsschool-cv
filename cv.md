@@ -3,7 +3,7 @@
 ## About Me
 Since 2016, I have been developing state-regulated construction technological documentation in Belarus, documentation on the organization of construction, as well as sections of demolition projects.
 
-Until 2016 - line manager of construction and installation works (work supervisor).
+Until 2016 - line manager of construction and installation works (supervisor).
 
 https://www.linkedin.com/in/yurivromanowski/
 
@@ -16,10 +16,9 @@ I am currently taking the course in The Rolling Scopes School.
 ## Code example
 ```javascript
 function greaterThanLessThan (a,b,c) {
-  let result = a < b < c;
-    return result;
+    return a < b < c;
 }
-greaterThanLessThan (5,3,2) // => true, because false == 0, true == 1
+greaterThanLessThan (5,3,2); // => true, because false == 0, true == 1
 ```
 
 **I have resumed learning English and try to use it at A2 level.**

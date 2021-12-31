@@ -16,7 +16,8 @@
     <header>
         <div class="container-header">
             <div>E-mail: <a class="none" href="mailto:clegrof@gmail.com">clegrof@gmail.com</a></div>
-            <div class="Telegram">Telegram: <a class="none" href="http://t.me/clegrof">@clegrof</a></div>
+            <div class="Telegram">Telegram: <a class="none" target="_blank" href="http://t.me/clegrof">@clegrof</a>
+            </div>
         </div>
     </header>
 
@@ -35,6 +36,8 @@
                     <a class="nav2" href="#Projects">Projects</a>
                     <a class="nav2" href="#Skills">Skills</a>
                     <a class="nav2" href="#Education">Education</a>
+                    <a class="nav2" href="#English">English</a>
+                    <a class="nav2" href="#Contacts">Contacts</a>
                 </div>
             </nav>
         </aside>
@@ -45,14 +48,15 @@
                 Since 2016, I have been developing state-regulated construction technological documentation in Belarus,
                 documentation on the organization of construction, as well as sections of demolition projects.
             </p>
-            <p>Until 2016 - line manager of construction and installation works (work supervisor).</p>
-            <p>You can see more information about my career in my <a
+            <p>Until 2016 - line manager of construction and installation works (supervisor).</p>
+            <p>You can see more information about my career in my <a target="_blank"
                     href="https://www.linkedin.com/in/yurivromanowski/">LinkedIn</a> profile.
             </p>
 
             <p>
                 In 2021, I made the decision to become a front-end developer.
-                I am currently studying in <a href="https://rs.school/js/">The Rolling Scopes School</a>.
+                I am currently studying in <a target="_blank" href="https://rs.school/js/">The Rolling Scopes
+                    School</a>.
             </p>
         </section>
         <section class="portfolio">
@@ -66,11 +70,11 @@
                     <p style="padding: 0px; margin: 0px;">Mechanical clock with moving hands in JavaScript.</p>
                 </div>
                 <div class="ProjectsIn">
-                    <h3 style="text-align: center;">HTMLAcademy</h3>
-                    <a target="_blank" href="https://htmlacademy.ru/">
-                        <img class="HTMLAcad" src="img/HTMLAcad.png" height="211" alt="HTMLAcademy">
+                    <h3 style="text-align: center;">CSS Slider</h3>
+                    <a target="_blank" href="https://manofsky.github.io/cssMemSlider/cssMemSlider/index.html">
+                        <img class="cssSlider" src="img/cssSlider.jpg" alt="cssSlider">
                     </a>
-                    <p style="padding: 0px; margin: 0px;">Simulator projects on HTMLAcademy.</p>
+                    <p style="padding: 0px; margin: 0px;">CSS slider without using JavaScript.</p>
                 </div>
             </div>
         </section>
@@ -83,9 +87,11 @@
             <h3>Code example:</h3>
             <div class="padding">
                 <pre class="section__code"><code>function greaterThanLessThan (a,b,c) {
-let result = a &lt; b &lt; c;
-return result;
-}</code></pre>
+    return a &lt; b &lt; c;
+}
+greaterThanLessThan (5,3,2);
+// => true, because false == 0, true == 1
+</code></pre>
             </div>
         </section>
 
@@ -93,71 +99,69 @@ return result;
             <h2 id="Education">Education</h2>
             <ul>
                 <li>
-                    Belarusian National Technical University. Civil Engineering Faculty
-                    (2005-2010)
+                    In 2010 I graduated from the Faculty of Civil Engineering of the Belarusian National Technical
+                    University.
                 </li>
                 <li>
-                    Moscow State University of Civil Engineering (National Research University)
-                    (2012-2017)
+                    In 2017 I graduated from Moscow State University of Civil Engineering (National Research
+                    University).
                 </li>
             </ul>
         </section>
 
         <section>
-            <h2>English</h2>
-            <p>I use English at A2 level.</p>
+            <h2 id="English">English</h2>
+            <p>I have resumed learning English and try to use it at A2 level.</p>
 
         </section>
         <section>
-            <h2>Contacts</h2>
+            <h2 id="Contacts">Contacts</h2>
             <ul>
                 <li>E-mail: <a class="none" href="mailto:clegrof@gmail.com">clegrof@gmail.com</a></li>
-                <li>Telegram: <a class="none" href="http://t.me/clegrof">@clegrof</a></li>
+                <li>Telegram: <a class="none" target="_blank" href="http://t.me/clegrof">@clegrof</a></li>
             </ul>
         </section>
 
     </main>
     <hr>
     <footer>
-        <div><a href="https://github.com/Manofsky">
+        <div><a target="_blank" href="https://github.com/Manofsky">
                 <img src="img/github-logo.svg" height="25" alt="link to my github">
             </a></div>
         <div class="year-of-app">2021</div>
-        <div><a href="https://rs.school/js/">
+        <div><a target="_blank" href="https://rs.school/js/">
                 <img src="img/rs_school_js.svg" height="25" alt="link to the course">
             </a></div>
     </footer>
     <script>
         let selfAssessment;
         selfAssessment = `
-        * вёрстка валидная + 10 баллов
+* студент засабмитил в rs app ссылку на своё CV, задеплоенное на gh-pages +10
+* вёрстка валидная + 10
 https://validator.w3.org/
 Есть надпись "Document checking completed. No errors or warnings to show."
-        * вёрстка семантическая + 20 баллов
-В коде страницы присутствуют семантические теги HTML5:
-article, aside, figure, figcaption, footer, header, main, nav, section,
-используются заголовки h1 - h6. 2 балла за каждый уникальный семантический тег HTML5 и за каждый уникальный заголовок h1 - h6,
-но не больше 20 баллов
-        * для оформления СV используются css - стили: 1 балл за каждый стилизованный элемент, но не больше 10 баллов
-        * контент размещается в блоке, который горизонтально центрируется на странице.
-Фоновый цвет, если он есть, тянется во всю ширину страницы + 10
-        * вёрстка адаптивная: ни на одном из разрешений экрана до 320px включительно не появляется горизонтальная полоса прокрутки,
-при этом всё содержание страницы сохраняется + 10
-        * есть меню.Ссылки в пунктах меню ведут на основные разделы CV.
-При кликах по пунктам меню реализована плавная прокрутка по якорям.
-При уменьшении ширины экрана меню становится адаптивным.Внешний вид адаптивного меню можно скопировать с макета музея + 8
-        * на странице СV присутствует изображение - фото или аватарка автора CV, пропорции изображения не искажены,
-у изображения есть атрибут alt(может быть пустым) + 10
-        * контакты для связи и перечень навыков оформлены в виде списка ul > li + 10
-        * CV содержит контакты для связи, краткую информацию о себе, перечень навыков, информацию об образовании и уровне английского + 10
-        * CV содержит пример вашего кода(например, решение задачи с сайта codewars) с подсветкой кода + 10
-        * CV содержит изображения - ссылки на выполненные вами проекты.При клике по изображению страница проекта открывается в новой вкладке + 10
-        * CV выполнено на английском языке + 10
-        * выполнены требования к Pull Request:
-есть ссылка на задание, скриншот страницы СV,
-ссылка на деплой страницы CV на GitHub Pages,
-выполнена самооценка(самооценку расписываем по пунктам критериев оценки, указывая балл за каждый пункт) + 10
-        * качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию + 8
+* вёрстка семантическая + 20 баллов
+В коде странице присутствуют и используются по назначению следующие элементы:
+header, main, footer +5
+элемент nav +5
+только один заголовок h1 +5
+заголовки h2 +5
+* в footer есть ссылка на гитхаб автора работы, год создания приложения, логотип курса со ссылкой на курс +10
+* для оформления СV используются css-стили +10
+* при уменьшении масштаба страницы браузера вёрстка размещается по центру по горизонтали, а не сдвигается в сторону +10
+* на странице СV есть фото или аватарка автора, пропорции изображения не искажены, у изображения есть атрибут alt +10
+* навигация, контакты для связи и перечень навыков оформлены в виде списка ul > li или ul > li > a +10
+Также допускается использование нумерованого списка ol > li или ol > li > a
+* Содержание CV +30
+CV содержит:
+краткую информацию о себе +5
+контакты для связи +5
+перечень навыков +5
+пример кода. Код добавляется при помощи символов и тегов, а не картинкой +5
+перечень выполненных учебных проектов со ссылками на исходный код или страницу приложения +5
+информацию об образовании и уровне английского +5
+* CV выполнено на английском языке +10
+ИТОГО: 130
         `;
         console.log(selfAssessment);
     </script>
