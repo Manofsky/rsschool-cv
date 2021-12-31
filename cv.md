@@ -1,5 +1,5 @@
 # CV of Yuriy Romanowskiy
-![photo](/img/yury.jpg "photo of me")
+![photo](img/yury.jpg "photo of me")
 ## About Me
 Since 2016, I have been developing state-regulated construction technological documentation in Belarus, documentation on the organization of construction, as well as sections of demolition projects.
 
