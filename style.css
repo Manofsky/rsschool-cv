@@ -94,7 +94,10 @@ footer {
 .nav {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
+    max-height: 50px;
+    flex-wrap: wrap;
+    align-content: space-around;
 }
 .Projects {
     display: flex;
@@ -147,12 +150,12 @@ footer {
         top: 50px;
     }
     .nav {
-        margin-top: 75px;
-        max-height: 300px;
+        margin-top: 10px;
+        max-height: 400px;
         max-width: 150px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        /* justify-content: center; */
     }
     .nav a:hover {
         background-color: #ddd;
