@@ -60,7 +60,7 @@
             </p>
         </section>
         <section class="portfolio">
-            <h2 id="Projects" class="subheading">Projects</h2>
+            <h2 id="Projects" class="subheading">Projects<span class="updating">(updating...)</span></h2>
             <div class="Projects">
                 <div class="ProjectsIn">
                     <h3 style="text-align: center;">JS Clock</h3>
@@ -81,17 +81,17 @@
         <section>
             <h2 id="Skills">Skills</h2>
             <ul>
-                <li>Git</li>
-                <li>HTML, CSS, JavaScript</li>
+                <li>Git, webpack</li>
+                <li>HTML, CSS, JavaScript, TypeScript</li>
+                <li>NodeJS basics</li>
             </ul>
-            <h3>Code example:</h3>
+            <h3>Code example<span class="updating">(updating...)</span>:</h3>
             <div class="padding">
-                <pre class="section__code"><code>function greaterThanLessThan (a,b,c) {
+              <pre class="section__code"><code>function greaterThanLessThan (a,b,c) {
     return a &lt; b &lt; c;
 }
-greaterThanLessThan (5,3,2);
-// => true, because false == 0, true == 1
-</code></pre>
+greaterThanLessThan(5,3,2);
+// => true, because false == 0, true == 1</code></pre>
             </div>
         </section>
 
@@ -128,43 +128,11 @@ greaterThanLessThan (5,3,2);
         <div><a target="_blank" href="https://github.com/Manofsky">
                 <img src="img/github-logo.svg" height="25" alt="link to my github">
             </a></div>
-        <div class="year-of-app">2021</div>
+        <div class="year-of-app">2022</div>
         <div><a target="_blank" href="https://rs.school/js/">
                 <img src="img/rs_school_js.svg" height="25" alt="link to the course">
             </a></div>
     </footer>
-    <script>
-        let selfAssessment;
-        selfAssessment = `
-* студент засабмитил в rs app ссылку на своё CV, задеплоенное на gh-pages +10
-* вёрстка валидная + 10
-https://validator.w3.org/
-Есть надпись "Document checking completed. No errors or warnings to show."
-* вёрстка семантическая + 20 баллов
-В коде странице присутствуют и используются по назначению следующие элементы:
-header, main, footer +5
-элемент nav +5
-только один заголовок h1 +5
-заголовки h2 +5
-* в footer есть ссылка на гитхаб автора работы, год создания приложения, логотип курса со ссылкой на курс +10
-* для оформления СV используются css-стили +10
-* при уменьшении масштаба страницы браузера вёрстка размещается по центру по горизонтали, а не сдвигается в сторону +10
-* на странице СV есть фото или аватарка автора, пропорции изображения не искажены, у изображения есть атрибут alt +10
-* навигация, контакты для связи и перечень навыков оформлены в виде списка ul > li или ul > li > a +10
-Также допускается использование нумерованого списка ol > li или ol > li > a
-* Содержание CV +30
-CV содержит:
-краткую информацию о себе +5
-контакты для связи +5
-перечень навыков +5
-пример кода. Код добавляется при помощи символов и тегов, а не картинкой +5
-перечень выполненных учебных проектов со ссылками на исходный код или страницу приложения +5
-информацию об образовании и уровне английского +5
-* CV выполнено на английском языке +10
-ИТОГО: 130
-        `;
-        console.log(selfAssessment);
-    </script>
 </body>
 
 </html>

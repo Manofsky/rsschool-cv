@@ -52,7 +52,6 @@ figcaption {
 }
 
 .aside {
-    
     margin: auto;
 }
 
@@ -94,7 +93,6 @@ footer {
 .nav {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     max-height: 50px;
     flex-wrap: wrap;
     align-content: space-around;
@@ -108,6 +106,11 @@ footer {
 }
 .cssSlider {
     width: 300px;
+}
+
+.updating {
+  font-weight: normal;
+  font-size: 24px;
 }
 
 @media (min-width: 670px) {
